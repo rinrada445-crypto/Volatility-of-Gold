@@ -166,3 +166,6 @@ Based on the 2020–2025 relationships, the analysis argues that:
 ## Disclaimer
 
 This project is for **educational and analytical purposes only** and is **not financial or investment advice**. Gold prices and volatility can change quickly. Do your own research or consult a licensed financial advisor before making investment decisions.
+
+## License
+https://docs.superhuman.com/d/Volality-of-Gold_dHpoEq_UDLX/volatility-of-Gold_suXqNh_H#_luXfqXi_
