@@ -55,7 +55,7 @@ The project:
 | `CBOE Price` | GVZ close | % points |
 | `CBOE Open` | GVZ open | % points |
 
-> **Note:** In the workbook, the DXY and GVZ columns are `VLOOKUP` formulas that point to an external source workbook (`dollar (3)` and `CBOE Gold Volatitity Historical`). If those values appear empty or show `#REF!` when you open the file, paste them as static values or re-link the source workbook.
+> **Note:** In the workbook, the DXY and GVZ columns are `VLOOKUP` formulas that point to an external source workbook (`dollar (3)` and `CBOE Gold Volatility Historical`). If those values appear empty or show `#REF!` when you open the file, paste them as static values or re-link the source workbook.
 
 **What is GVZ?** The Cboe Gold ETF Volatility Index estimates the expected **30-day volatility** of returns on the SPDR Gold Shares ETF (GLD), computed from GLD option prices, the same way the VIX is built for the S&P 500. It is annualized and expressed in percentage points.
 
@@ -67,6 +67,7 @@ The project:
 - **Risk framework:** GVZ is converted to a daily expected move and then to stop distances and position sizes (see below).
 
 ## Key Findings
+<img width="2145" height="1006" alt="image (3)" src="https://github.com/user-attachments/assets/2ef83a38-a952-40bd-a644-36bd5c1ea3e7" />
 
 ### 1. 2012–2018: Stability and consolidation
 - DXY rose gradually from roughly 80 toward 100.
@@ -88,6 +89,8 @@ The project:
 | 2023–2025 | Decoupled | Relatively low | Structural, institution-driven demand |
 
 ## GVZ Risk-Calibration Framework
+
+<img width="2262" height="1222" alt="image (4)" src="https://github.com/user-attachments/assets/b2114be3-a0de-4741-a591-dcc50f2f8915" />
 
 GVZ can be used as a **risk-calibration tool**, not just a sentiment indicator.
 
@@ -130,6 +133,7 @@ Widening the stop without shrinking the position increases total risk. Sizing in
 | **Defensive** | Rapid price surge with GVZ above ~25 | Avoid chasing; wait for a plateau; consider partial profit-taking |
 
 ## 2026 Outlook
+<img width="2752" height="1555" alt="image (5)" src="https://github.com/user-attachments/assets/c42e2fbf-37df-4b22-b995-41e8f1795e98" />
 
 Based on the 2020–2025 relationships, the analysis argues that:
 
