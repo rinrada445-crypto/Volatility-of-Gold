@@ -145,7 +145,7 @@ Based on the 2020–2025 relationships, the analysis argues that:
 
 ## Limitations
 
-- **Monthly data vs. intraday framework.** The dataset is monthly, while the GVZ calibration framework targets intraday behavior. The thresholds (18 / 24 / 25) are illustrative heuristics and should be backtested on daily or intraday data before use.
+- **Built a GVZ based volatility framework to size stop loss and position by risk regime.**
 - **Correlation is not causation.** Visual comparison of three series does not prove that central-bank buying or tariffs drove the moves. The structural-driver explanation is an interpretation.
 - **Single dollar measure.** Only DXY is used. Real yields, central-bank purchases and ETF flows are not modeled.
 - **Small, single-cycle sample.** One decoupling episode (2024–2025) is limited evidence that the relationship has permanently changed.
