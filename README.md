@@ -43,12 +43,12 @@ The project:
 | Item | Detail |
 |---|---|
 | File | `data.xlsx` (Sheet1) |
-| Frequency | Monthly |
-| Period | Jan 2012 – Dec 2025 (168 monthly observations) |
+| Frequency | Daily |
+| Period | Jan 2012 – Dec 2025 (~3,500+ daily trading observations) |
 
 | Column | Description | Unit |
 |---|---|---|
-| `Date` | First day of each month | date |
+| `Date` | Daily trading date | date |
 | `Gold price` | Gold Futures price | USD |
 | `Gold open price` | Gold Futures open price | USD |
 | `USA dollar open price` | U.S. Dollar Index (DXY) open | index points |
@@ -155,7 +155,7 @@ Based on the 2020–2025 relationships, the analysis argues that:
 
 ```
 .
-├── data.xlsx        # Monthly Gold, DXY and GVZ data (2012–2025)
+├── data.xlsx        # Daily Gold, DXY and GVZ data (2012–2025)
 ├── README.md        # Project documentation
 └── images/          # Charts used in the report (optional)
 ```
